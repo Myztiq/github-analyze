@@ -13,8 +13,8 @@ const run = async () => {
     const teams = extractArray(core.getInput('teams', { required: true }));
     const octokit = github.getOctokit(gitHubToken);
 
-    const teamMapping = teams.reduce((accum, team) => {
-        const members = extractArray(core.getInput(`team-${team}`, { required: true }));
+    const teamMapping = teams.reduce((accum, team, index) => {
+        const members = extractArray(core.getInput(`team${index}`, { required: true }));
         accum[team] = members
 
         return accum

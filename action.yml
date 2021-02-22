@@ -7,6 +7,27 @@ inputs:
   teams:
     description: 'List of teams/team member mapping'
     required: true
+  team0:
+    description: 'List of team members from team list above'
+    required: false
+  team1:
+    description: 'List of team members from team list above'
+    required: false
+  team2:
+    description: 'List of team members from team list above'
+    required: false
+  team3:
+    description: 'List of team members from team list above'
+    required: false
+  team4:
+    description: 'List of team members from team list above'
+    required: false
+  team5:
+    description: 'List of team members from team list above'
+    required: false
+  team6:
+    description: 'List of team members from team list above'
+    required: false
 
 runs:
   using: 'node12'

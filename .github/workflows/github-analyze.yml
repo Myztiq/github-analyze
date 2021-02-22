@@ -12,10 +12,10 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           teams: adoption, fe-infra, analytics, data-management, sdk, skylab, cerebro
-          team-adoption: sputh, kelvin-lu, TroutZen, albertli88, kelsonpw
-          team-fe-infra: ManThursday
-          team-analytics: djih, cely404, RFitz, RFitz
-          team-data-mangement: jackmccloy, rctbusk, shreyvalia1, theoschao, fej-snikduj
-          team-sdk: haoliu-amp, jooohhn, dnchn
-          team-skylab: davemn
-          team-cerebro: ricfang
+          team0: sputh, kelvin-lu, TroutZen, albertli88, kelsonpw
+          team1: ManThursday
+          team2: djih, cely404, RFitz, RFitz
+          team3: jackmccloy, rctbusk, shreyvalia1, theoschao, fej-snikduj
+          team4: haoliu-amp, jooohhn, dnchn
+          team5: davemn
+          team6: ricfang
