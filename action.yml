@@ -1,0 +1,17 @@
+name: 'Analyze github PRs'
+description: 'Preform analysis on github pull requests by team'
+inputs:
+  repo-token:
+    description: 'The GITHUB_TOKEN, needed to update the Issue'
+    required: true
+  teams:
+    description: 'List of teams/team member mapping'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'src/index.js'
+
+branding:
+  icon: 'alert-circle'
+  color: 'green'
