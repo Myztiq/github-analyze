@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Analyze github pull requests'
-        uses: ./src/index.js
+        uses: ./
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           teams: adoption, fe-infra, analytics, data-management, sdk, skylab, cerebro
